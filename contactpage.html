@@ -2,21 +2,50 @@
 <html>
     <head>
         <link rel="stylesheet"href="style.css">
+        <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
     </head>
     <body>
+      <ul>
+         <li><a href=index.html>Home</a></li>
+         <li><a href=Aboutpage.html>About</a></li>
+         <li><a href=Gallerypage.html>Gallery</a></li>
+         <li><a href=Contactpage.html>Contact</a></li>
+     </ul>
         <h1>Contact Me</h1>
-        <div class="contact-box">
-            <form>
-                <input type="text"class="input-field"placeholder="Name">
-                <input type="text"class="input-field"placeholder="Email">
-                <input type="text"class="input-field"placeholder="Cellphone Number">
-            </form>
-        </div>
-    
-    </body>
+        <div class="container">
+            <div class="contact-parent">
+               <div class="contact-child child1">
+                  <p>
+                     <i class="fa-solid fa-location-dot"></i> Address <br />
+                     <span> 35007 Cula St
+                     <br />
+                     Harare, Khayelitsha 7784
+                     </span>
+                  </p>
+                  <p>
+                     <i class="fa-solid fa-phone"></i>Cellphone <br />
+                     <span> 0647011331</span>
+                  </p>
+                  <p>
+                     <i class="fa-solid fa-envelope"></i> Email <br />
+                     <span>qhamisa.nyaba@codetelligence.org.za</span>
+                  </p>
+               </div>
+               
+               <p>Lets get in touch. Send me a message:</p>
+               <form action="/action_page.php" target="_blank">
+                 <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+                 <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Email" required name="Email"></p>
+                 <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Subject" required name="Subject"></p>
+                 <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message" required name="Message"></p>
+                 <p>
+                   <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+                     <i class="fa fa-paper-plane"></i> SEND MESSAGE
+                   </button>
+                 </p>
+               </form>
+               
 
 
-
-
-
+            </body>
 </html>
